@@ -1,8 +1,3 @@
-# simple_script.py
-
-def greet(name):
-    return f"Hello, {name}!"
-
-if __name__ == "__main__":
-    user = input("Enter your name: ")
-    print(greet(user))
+# test_git.py
+print("Git działa poprawnie! 🚀")
+# This script is a simple test to check if Git is functioning correctly.

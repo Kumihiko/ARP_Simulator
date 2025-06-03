@@ -117,13 +117,17 @@ if __name__ == "__main__":
     net.add_host(h4)
     net.add_host(h5)
     net.add_host(h6)
+    
+    target_ip = "192.168.1.40"# set the target IP to the host you want to send the ARP request to
+                              # if set to h2 should return an error / can be combined with spoofing 
+    victim_ip = "192.168.1.10"
+    
 
     h3.enable_spoofing = False #set for true or false to enable or disable spoofing
 
-    h1.send_arp_request("192.168.1.60", net) # set the target IP to the host you want to send the ARP request to
-                                             # if set to h2 should return an error / can be combined with spoofing 
+    h1.send_arp_request(target_ip, net) 
 
-    net.trigger_spoofing_if_enabled("192.168.1.50", "192.168.1.10")
+    net.trigger_spoofing_if_enabled(target_ip, victim_ip)
 
     time.sleep(1)
 

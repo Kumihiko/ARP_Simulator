@@ -30,12 +30,6 @@ If a host is offline (e.g., 192.168.1.20), the system will show a timeout error
 ![image](https://github.com/user-attachments/assets/e882fbcd-d74e-495e-a8a2-039ddd46b806)
 
 
-[192.168.1.10] Sending ARP request: who has 192.168.1.30???
-[192.168.1.30] Received ARP request, sending answer back to 192.168.1.10
-[192.168.1.10] Received ARP reply: 192.168.1.30 on MAC AA:BB:CC:DD:EE:03
-ARP table for host 192.168.1.10:
-192.168.1.30 => AA:BB:CC:DD:EE:03 (added 0 sec. ago)
-
 
 ## 🚀 How to Run
 

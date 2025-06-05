@@ -26,7 +26,9 @@ If a host is offline (e.g., 192.168.1.20), the system will show a timeout error
 
 ## 🖥️ Preview
 
-![image](https://github.com/user-attachments/assets/c88a2511-41e6-4345-9ffd-279a1fb9868f)
+
+![image](https://github.com/user-attachments/assets/e882fbcd-d74e-495e-a8a2-039ddd46b806)
+
 
 [192.168.1.10] Sending ARP request: who has 192.168.1.30???
 [192.168.1.30] Received ARP request, sending answer back to 192.168.1.10

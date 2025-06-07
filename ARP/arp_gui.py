@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext
 import threading
 import time
-from io import StringIO
 import sys
 
 class Host:    
